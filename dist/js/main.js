@@ -5,6 +5,17 @@ const menuIconX = document.getElementById('menuIconX')
 let liHamburger= document.querySelectorAll('.liHamburger')
 let aHamburger= document.querySelectorAll('.liHamburger a')
 // menuIcon.classList.toggle('rotate-90')
+const btnTab=[menuIcon,menuIconX]
+
+// brak przewijania strony po rozinieciu menu
+btnTab.forEach((element)=>{
+    element.addEventListener('click',()=>{
+        document.body.classList.toggle('overflow-hidden')
+    })
+})
+
+
+
 
 nav.addEventListener('click',()=>{
     menuIcon.classList.toggle('hidden')
@@ -17,6 +28,4 @@ nav.addEventListener('click',()=>{
     
     
 });
-
-
 
