@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="pl" class="scroll-smooth">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Corgi "od Stasiaków</title>
+	<meta name="description"
+		content="Hodowla Corgi 'od Stasiaków' - pasja, miłość i profesjonalizm. Odkryj naszą hodowlę i zobacz, co czyni naszych psów tak wyjątkowymi" />
+	<meta name="keywords"
+		content="hodowla Corgi, Corgi Pembroke, Corgi Cardigan, psy rasowe, hodowla psów, miłość do zwierząt" />
+	<meta name="author" content="marcinstasiak.mail@gmail.com" />
+	<link rel="stylesheet" href="./dist/output.css" />
+</head>
+
+<body class="text-[#0F0F0F] bg-[#FFF8F0]">
+	<!-- werska mobilna -->
+	<header class="w-full h-36 bg-[#FFF8F0] flex items-center justify-around fixed z-10 lg:text-lg">
+		<a href="#" class="h-36 w-50">
+			<img src="./dist/img/hodowlaLog.png" alt="logo hodowli 'od Stasiakó'" class="object-fill h-full" />
+		</a>
+
+		<!-- nawigacja deskop -->
+		<ul class="hidden sm:flex text-[#0F0F0F]">
+			<li id="" class="liHamburger py-2 hover:bg-[#F4D06F]  hover:font-semibold rounded-md">
+				<a href="#naszePsy" id="'target" class="block px-4 py-2">Nasze psy</a>
+			</li>
+			<li id="" class="liHamburger py-2 hover:bg-[#F4D06F] transition-colors hover:font-semibold rounded-md">
+				<a href="./src/puppy/index.html" class="block px-4 py-2">Szczenięta</a>
+			</li>
+			<li id="" class="liHamburger py-2 hover:bg-[#F4D06F] hover:font-semibold rounded-md">
+				<a href="./src/gallery/index.html" class="block px-4 py-2">Galeria</a>
+			</li>
+			<li id="" class="liHamburger py-2 hover:bg-[#F4D06F] hover:font-semibold rounded-md">
+				<a href="#kontakt" class="block px-4 py-2">Kontakt</a>
+			</li>
+		</ul>
+		<!-- nawigacja mobile -->
+		<nav id="nawigacja" class="w-full h-10 flex justify-end ease-out sm:hidden">
+			<img id="menuIcon" src="./dist/img/bars-solid.svg" alt="menu icon" class="w-10 h-full mr-10" />
+			<img id="menuIconX" src="./dist/img/xmark-solid.svg" alt="menu icon" class="w-10 h-full mr-10 hidden" />
+
+			<ul id="ulList"
+				class="absolute top-[95%] left-[15%] bg-[#FFF8F0] text-[#0F0F0F] font-semibold shadow-md rounded-xl p-2 w-3/4 flex-col justify-center items-center cursor-pointer z-10 opacity-95 hidden">
+				<li id="" class="liHamburger py-2 hover:bg-[#F4D06F] rounded-md">
+					<a href="#naszePsy" class="block px-4 py-2">Nasze psy</a>
+				</li>
+				<li id="" class="liHamburger py-2 hover:bg-[#F4D06F] rounded-md">
+					<a href="./src/puppy/index.html" class="block px-4 py-2">Szczenięta</a>
+				</li>
+				<li id="" class="liHamburger py-2 hover:bg-[#F4D06F] rounded-md">
+					<a href="./src/gallery/index.html" class="block px-4 py-2">Galeria</a>
+				</li>
+				<li id="" class="liHamburger py-2 hover:bg-[#F4D06F] rounded-md">
+					<a href="#kontakt" class="block px-4 py-2">Kontakt</a>
+				</li>
+			</ul>
+		</nav>
+	</header>
+
+	<!-- baner -->
+
+	<section
+		class="h-[70vh] lg:h-[90vh] relative bg-[url('../dist/img/baner.jpg')] bg-cover bg-no-repeat py-20 bg-[center_bottom_15%] md:bg-[center_bottom_30%]">
+	</section>
+
+	<!-- O NAS -->
+
+	<section class="w-[80%] mx-auto my-8 p-8 font-roboto text-[#0F0F0F]">
+		<h1 class="mb-4 text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl">
+			Witaj w hodowli <br />'od Stasiaków"
+		</h1>
+		<p class="text-lg leading-7 lg:text-xl">
+			Witaj w naszej hodowli wspaniałych Corgi Pembroke! Nasza pasja do tych
+			uroczych i inteligentnych psów skłoniła nas do założenia hodowli. Naszym
+			głównym celem jest pielęgnacja rasowych Corgi oraz propagowanie ich
+			wyjątkowych cech charakteru.
+		</p>
+		<p class="mt-4 text-lg leading-7">
+			Nasza hodowla mieści się w malowniczym Ozorkowie, gdzie skupiamy się na
+			dbałości o zdrowie, temperament oraz doskonałe warunki życia naszych
+			psów. Tutaj każdy pies jest członkiem naszej rodziny, co pozwala nam
+			zapewnić im nie tylko odpowiednie warunki mieszkaniowe, ale także
+			mnóstwo miłości i uwagi.
+		</p>
+		<p class="mt-4 text-lg leading-7">
+			Obecnie w naszej hodowli mamy cztery urocze Corgi - trzy cudowne suczki
+			oraz jednego wspaniałego samca. Naszym priorytetem jest zapewnienie
+			naszym zwierzakom jak najlepszej opieki, a ich dobrostan jest dla nas
+			najważniejszy.
+		</p>
+	</section>
+
+	<!-- nasze psy -->
+	<a id="naszePsy"></a>
+	<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+		<path fill="#ff8811" fill-opacity="1"
+			d="M0,160L60,154.7C120,149,240,139,360,138.7C480,139,600,149,720,170.7C840,192,960,224,1080,197.3C1200,171,1320,85,1380,42.7L1440,0L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z">
+		</path>
+	</svg>
+	<section class="p-6 bg-[#FF8811]">
+		<h2 class="text-3xl font-extrabold text-[#0F0F0F] mb-4">Nasze psy</h2>
+		<div class="flex flex-wrap justify-around lg:flex-nowrap md:justify-">
+			<div
+				class="w-64 mx-4 my-6 rounded-lg shadow-md hover:shadow-gray-600 hover:shadow-xl transition-shadow p-4 bg-[#FFF8F0]">
+				<img src="./dist/img/nasze psy/levi.webp" alt="Zdjęcie psa"
+					class="rounded-full h-56 w-56 mx-auto mb-4" />
+
+				<p class="text-xl font-semibold">Imię i nazwisko psa</p>
+				<p class="text-[#0F0F0F]">Przydomek hodowlany</p>
+				<a href="https://cardiganwelshcorgi.breedarchive.com/animal/view/tim-pride-in-love-again-e960cabe-80b4-4c14-9d6d-de7e0280cc1f"
+					target="_blank"
+					class="block mt-4 bg-[#F4D06F] hover:bg-[#FF8811] active:bg-[#FF8811] focus:bg-[#FF8811] hover:text-white transition-colors font-semibold rounded-lg py-2 px-4 text-center">więcej</a>
+			</div>
+
+			<div
+				class="w-64 mx-4 my-6 rounded-lg shadow-md hover:shadow-gray-600 hover:shadow-xl transition-shadow p-4 bg-[#FFF8F0]">
+				<img src="./dist/img/nasze psy/almeria.jpg" alt="Zdjęcie psa"
+					class="rounded-full h-56 w-56 mx-auto mb-4" />
+
+				<p class="text-xl font-semibold">Imię i nazwisko psa</p>
+				<p class="text-[#0F0F0F]">Przydomek hodowlany</p>
+				<a href="https://cardiganwelshcorgi.breedarchive.com/animal/view/almeria-od-stasiakaw-06b9cec5-fee8-418b-a22c-cb6334c7d47e"
+					target="_blank"
+					class="block mt-4 bg-[#F4D06F] hover:bg-[#FF8811] active:bg-[#FF8811] focus:bg-[#FF8811] hover:text-white transition-colors font-semibold rounded-lg py-2 px-4 text-center">więcej</a>
+			</div>
+
+
+			<div
+				class="w-64 mx-4 my-6 rounded-lg shadow-md hover:shadow-gray-600 hover:shadow-xl transition-shadow p-4 bg-[#FFF8F0]">
+				<img src="./dist/img/nasze psy/teri.webp" alt="Zdjęcie psa"
+					class="rounded-full h-56 w-56 mx-auto mb-4" />
+
+				<p class="text-xl font-semibold">Imię i nazwisko psa</p>
+				<p class="text-gray-600">Przydomek hodowlany</p>
+				<a href="https://cardiganwelshcorgi.breedarchive.com/animal/view/zaruchna-fakiruchna-dla-stasiakow-quitte-ray-7eafc549-f40b-414c-8a09-2f7344f6dc2d"
+					target="_blank" class=" block mt-4 bg-[#F4D06F] hover:bg-[#FF8811] active:bg-[#FF8811] focus:bg-[#FF8811] hover:text-white
+					transition-colors font-semibold rounded-lg py-2 px-4 text-center">więcej</a>
+			</div>
+
+			<div
+				class="w-64 mx-4 my-6 rounded-lg shadow-md hover:shadow-gray-600 hover:shadow-xl transition-shadow p-4 bg-[#FFF8F0]">
+				<img src="./dist/img/nasze psy/zoya.webp" alt="Zdjęcie psa"
+					class="rounded-full h-56 w-56 mx-auto mb-4" />
+
+				<p class="text-xl font-semibold">Imię i nazwisko psa</p>
+				<p class="text-gray-600">Przydomek hodowlany</p>
+				<a href="&" target="_blank" class=" block mt-4 bg-[#F4D06F] hover:bg-[#FF8811] active:bg-[#FF8811] focus:bg-[#FF8811] hover:text-white
+					transition-colors font-semibold rounded-lg py-2 px-4 text-center">więcej</a>
+			</div>
+
+			<!-- Dodaj kolejne psy w podobnym układzie -->
+		</div>
+	</section>
+	<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+		<path fill="#ff8811" fill-opacity="1"
+			d="M0,224L80,240C160,256,320,288,480,256C640,224,800,128,960,122.7C1120,117,1280,203,1360,245.3L1440,288L1440,0L1360,0C1280,0,1120,0,960,0C800,0,640,0,480,0C320,0,160,0,80,0L0,0Z">
+		</path>
+	</svg>
+	<!-- co nas wyruznia -->
+
+	<section class="flex flex-col items-center w-screen">
+		<h2 class="text-3xl font-bold my-10 ml-5 self-start">Co nas wyróznia</h2>
+
+		<div class="w-3/4 md:w-1/2 flex flex-col items-center rounded-lg shadow-lg p-4 mb-12 md:mb-20">
+			<img src="./dist/img/corgi_dyplom.png" alt="zdjecie dyplomu" class="w-40 lg:w-52 mb-5" />
+			<p class="p-2 md:p-8 md:text-lg lg:text-xl">
+				Stworzyliśmy solidne fundamenty dla naszych pupili. Wszystkie nasze
+				psy pochodzą z renomowanych hodowli i posiadają pełne, starannie
+				dokumentowane rodowody. Naszym priorytetem jest zapewnienie klientom
+				zwierząt o znanej genealogii, co umożliwia śledzenie linii hodowlanych
+				oraz buduje pewność co do jakości i pochodzenia naszych pupili.
+			</p>
+		</div>
+
+		<div class="w-3/4 md:w-1/2 flex flex-col items-center rounded-lg shadow-lg p-4 mb-12 md:mb-20">
+			<img src="./dist/img/corgi_dom.png" alt="" class="w-40 lg:w-52 mb-5" />
+			<p class="p-2 md:p-8 md:text-lg lg:text-xl">
+				Jesteśmy pasjonatami hodowli zwierząt, którzy tworzą małą, domową
+				przystań dla naszych podopiecznych. Nasze zwierzęta są dla nas jak
+				członkowie rodziny, co kształtuje zdrowy rozwój, pozytywne zachowanie
+				oraz tworzy przyjazne relacje z ludźmi. Nasze podejście skupia się na
+				indywidualnej uwadze wobec każdego zwierzęcia, co wpływa na
+				kształtowanie ich wspaniałego charakteru i umiejętności socjalizacji.
+			</p>
+		</div>
+
+		<div class="w-3/4 md:w-1/2 flex flex-col items-center rounded-lg shadow-lg p-4 mb-12 md:mb-20">
+			<img src="./dist/img/ZKwP_logo.png" alt="" class="w-40 lg:w-52 mb-5" />
+			<p class="p-2 md:p-8 md:text-lg lg:text-xl">
+				Nasza hodowla jest aktywnym członkiem Polskiego Związku
+				Kynologicznego, co zapewnia pewność, że działamy w pełnej zgodności z
+				najwyższymi standardami etycznymi oraz troszczymy się o dobro
+				zwierząt. Dzięki naszej współpracy z PZK możemy nie tylko utrzymywać
+				te wysokie standardy, ale także rozwijać się, uczestniczyć w
+				szkoleniach oraz dzielić się doświadczeniami z innymi pasjonatami
+				hodowli.
+			</p>
+		</div>
+
+		<div class="w-3/4 md:w-1/2 flex flex-col items-center rounded-lg shadow-lg p-4 mb-12 md:mb-20">
+			<img src="./dist/img/corgi_karma.png" alt="" class="w-40 lg:w-52 mb-5" />
+			<p class="p-2 md:p-8 md:text-lg lg:text-xl">
+				Nasi ukochani przyjaciele otrzymują jedynie karmę najwyższej jakości,
+				co gwarantuje im optymalne zdrowie i siłę. Dzięki starannie
+				zbilansowanej diecie, nasze psy rozwijają się w pełni, posiadają
+				zdrowy układ odpornościowy oraz żyją pełnym wigoru życiem.
+			</p>
+		</div>
+	</section>
+
+	<!-- Kontakt -->
+	<a id="kontakt"></a>
+	<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+		<path fill="#ff8811" fill-opacity="1"
+			d="M0,32L30,42.7C60,53,120,75,180,101.3C240,128,300,160,360,192C420,224,480,256,540,245.3C600,235,660,181,720,181.3C780,181,840,235,900,250.7C960,267,1020,245,1080,202.7C1140,160,1200,96,1260,101.3C1320,107,1380,181,1410,218.7L1440,256L1440,320L1410,320C1380,320,1320,320,1260,320C1200,320,1140,320,1080,320C1020,320,960,320,900,320C840,320,780,320,720,320C660,320,600,320,540,320C480,320,420,320,360,320C300,320,240,320,180,320C120,320,60,320,30,320L0,320Z"
+			class="bg-[#FF8811]"></path>
+	</svg>
+	<section class="font-bold flex-col -mt-1">
+		<div class="bg-[#FF8811] flex justify-around items-center px-5 lg:px-10 xl:px-20 pb-10">
+			<img src="./dist/img/corgiContact.png" alt="" class="h-40 lg:h-52" />
+			<div>
+				<p class="w-full text-center lg:text-xl">
+					Masz pytania? Jesteśmy tu, by pomóc. <br /><br />
+					Skontaktuj się z nami poprzez nasze media społecznościowe.
+				</p>
+				<div class="flex items-center justify-center mx-auto">
+					<a target="_blank" href="https://www.facebook.com/profile.php?id=100064257836903" class="m-5">
+						<img src="./dist/img/facebook-f.svg" alt="" class="h-10 w-10" />
+					</a>
+					<a target="_blank" href="https://www.instagram.com/">
+						<img src="./dist/img/instagram.svg" alt="" class="h-10 w-10" />
+					</a>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<script src="./dist/js/main.js"></script>
+</body>
+
+</html>
