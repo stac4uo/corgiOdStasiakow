@@ -1,170 +1,150 @@
 <!DOCTYPE html>
 <html lang="pl">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Galeria 'od Stasiaków - Pasja w hodowli Corgi Pembroke. Zapraszamy do zapoznania się z naszą kolekcją zdjęć." />
-    <meta name="keywords" content="hodowla, Corgi Pembroke, galeria, psy, pasja, Stasiakowie" />
-    <meta name="author" content="marcinstasiak.mail@gmail.com" />
-    <title>Galeria "od Stasiaków</title>
-    <link rel="stylesheet" href="../../dist/output.css" />
-    
-    <!-- <script src="https://cdn.tailwindcss.com"></script> -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.0/flowbite.min.css" rel="stylesheet" />
 
-  </head>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description"
+    content="Galeria 'od Stasiaków - Pasja w hodowli Corgi Pembroke. Zapraszamy do zapoznania się z naszą kolekcją zdjęć." />
+  <meta name="keywords" content="hodowla, Corgi Pembroke, galeria, psy, pasja, Stasiakowie" />
+  <meta name="author" content="marcinstasiak.mail@gmail.com" />
+  <title>Galeria "od Stasiaków</title>
+  <link rel="stylesheet" href="../../dist/output.css" />
+
+  <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.0/flowbite.min.css" rel="stylesheet" />
+
+</head>
 
 
-    <body class="text-[#392F5A] bg-[#FFF8F0]">
-        <!-- werska mobilna -->
-       
-        <header
-      class="w-full h-40 bg-[#FFF8F0] flex items-center justify-around relative z-10"
-    ><a href="../../index.html" class=" h-36 w-50 ">
-      <img
-        src="../../dist/img/hodowlaLog.png"
-        alt="logo hodowli 'od Stasiakó'"
-        class=" object-fill h-full"
-      /></a>
+<body class="text-[#392F5A] bg-[#FFF8F0]">
+  <!-- werska mobilna -->
 
-      <!-- nawigacja deskop -->
-      <ul
-      class="hidden sm:flex"
-    >
-      
+  <header class="w-full h-40 bg-[#FFF8F0] flex items-center justify-around relative z-10"><a href="../../index.html"
+      class=" h-36 w-50 ">
+      <img src="../../dist/img/hodowlaLog.png" alt="logo hodowli 'od Stasiakó'" class=" object-fill h-full" /></a>
+
+    <!-- nawigacja deskop -->
+    <ul class="hidden sm:flex">
+
       <li id="" class="liHamburger py-2 hover:bg-[#F4D06F] hover:font-semibold rounded-md">
-        <a
-          href="../../index.html"
-          class="block px-4 py-2 text-[#392F5A] font-semibold  hover:text-[#FFF8F0]"
-          >Strona główna</a
-        >
+        <a href="../../index.html" class="block px-4 py-2 text-[#392F5A] font-semibold  hover:text-[#FFF8F0]">Strona
+          główna</a>
       </li>
-      
+
     </ul>
 
-      <!-- nawigacja mobile -->
-      
-      <nav
-        id="nawigacja"
-        class="w-full h-10 flex justify-end transition duration-150 ease-out sm:hidden"
-      >
-        <img
-          id="menuIcon"
-          src="../../dist/img/bars-solid.svg"
-          alt="menu icon"
-          class="w-10 h-full mr-10 transition duration-150 ease-out rotate-0"
-        />
-        <img
-          id="menuIconX"
-          src="../../dist/img/xmark-solid.svg"
-          alt="menu icon"
-          class="w-10 h-full mr-10 transition duration-150 ease-out rotate-0 hidden"
-        />
+    <!-- nawigacja mobile -->
 
-        <ul
-          id="ulList"
-          class="absolute top-[95%] left-[15%] bg-[#FFF8F0] font-semibold shadow-md rounded-xl p-2 w-3/4 flex-col justify-center items-center cursor-pointer z-10 opacity-95 hidden "
-        >
-          <li id="" class="liHamburger py-2 hover:bg-[#F4D06F] rounded-md">
-            <a
-              href="../../index.html"
-              class="block px-4 py-2 text-[#392F5A] hover:text-[#FFF8F0]"
-              >Strona główna</a
-            >
-          </li>
-         
-        </ul>
-      </nav>
-    </header>
+    <nav id="nawigacja" class="w-full h-10 flex justify-end transition duration-150 ease-out sm:hidden">
+      <img id="menuIcon" src="../../dist/img/bars-solid.svg" alt="menu icon"
+        class="w-10 h-full mr-10 transition duration-150 ease-out rotate-0" />
+      <img id="menuIconX" src="../../dist/img/xmark-solid.svg" alt="menu icon"
+        class="w-10 h-full mr-10 transition duration-150 ease-out rotate-0 hidden" />
+
+      <ul id="ulList"
+        class="absolute top-[95%] left-[15%] bg-[#FFF8F0] font-semibold shadow-md rounded-xl p-2 w-3/4 flex-col justify-center items-center cursor-pointer z-10 opacity-95 hidden ">
+        <li id="" class="liHamburger py-2 hover:bg-[#F4D06F] rounded-md">
+          <a href="../../index.html" class="block px-4 py-2 text-[#392F5A] hover:text-[#FFF8F0]">Strona główna</a>
+        </li>
+
+      </ul>
+    </nav>
+  </header>
 
 
 
-    <div id="gallery" class="relative w-full h-[75vh] z-0" data-carousel="slide">
-      <!-- Carousel wrapper -->
-      <div class=" h-56 overflow-hidden rounded-lg md:h-96">
-           <!-- Item 1 -->
-          <div class="hidden duration-700 ease-in-out" data-carousel-item>
-              <img src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-1.jpg" class="absolute block max-w-full h-auto -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="">
-          </div>
-          <!-- Item 2 -->
-          <div class="hidden duration-700 ease-in-out" data-carousel-item="active">
-              <img src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-2.jpg" class="absolute block max-w-full h-auto -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="">
-          </div>
-          <!-- Item 3 -->
-          <div class="hidden duration-700 ease-in-out" data-carousel-item>
-              <img src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-3.jpg" class="absolute block max-w-full h-auto -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="">
-          </div>
-          <!-- Item 4 -->
-          <div class="hidden duration-700 ease-in-out" data-carousel-item>
-              <img src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-4.jpg" class="absolute block max-w-full h-auto -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="">
-          </div>
-          <!-- Item 5 -->
-          <div class="hidden duration-700 ease-in-out" data-carousel-item>
-              <img src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-5.jpg" class="absolute block max-w-full h-auto -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="">
-          </div>
+  <div id="gallery" class="relative w-full h-[75vh] z-0" data-carousel="slide">
+    <!-- Carousel wrapper -->
+    <div class=" h-56 overflow-hidden rounded-lg md:h-96">
+      <!-- Item 1 -->
+      <div class="hidden duration-700 ease-in-out" data-carousel-item>
+        <img src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-1.jpg"
+          class="absolute block max-w-full h-auto -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="">
       </div>
-      <!-- Slider controls -->
-      <button type="button" class="absolute top-0 left-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-prev>
-        <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-gray-800/30 group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-gray-800/70 group-focus:outline-none">
-          <svg class="w-4 h-4 text-white dark:text-gray-800" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
-                  <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 1 1 5l4 4"/>
-              </svg>
-              <span class="sr-only">Previous</span>
-          </span>
-      </button>
-      <button type="button" class="absolute top-0 right-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-next>
-          <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-gray-800/30 group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-gray-800/70 group-focus:outline-none">
-              <svg class="w-4 h-4 text-white dark:text-gray-800" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
-                  <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 9 4-4-4-4"/>
-              </svg>
-              <span class="sr-only">Next</span>
-          </span>
-      </button>
+      <!-- Item 2 -->
+      <div class="hidden duration-700 ease-in-out" data-carousel-item="active">
+        <img src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-2.jpg"
+          class="absolute block max-w-full h-auto -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="">
+      </div>
+      <!-- Item 3 -->
+      <div class="hidden duration-700 ease-in-out" data-carousel-item>
+        <img src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-3.jpg"
+          class="absolute block max-w-full h-auto -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="">
+      </div>
+      <!-- Item 4 -->
+      <div class="hidden duration-700 ease-in-out" data-carousel-item>
+        <img src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-4.jpg"
+          class="absolute block max-w-full h-auto -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="">
+      </div>
+      <!-- Item 5 -->
+      <div class="hidden duration-700 ease-in-out" data-carousel-item>
+        <img src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-5.jpg"
+          class="absolute block max-w-full h-auto -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="">
+      </div>
+    </div>
+    <!-- Slider controls -->
+    <button type="button"
+      class="absolute top-0 left-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
+      data-carousel-prev>
+      <span
+        class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-gray-800/30 group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-gray-800/70 group-focus:outline-none">
+        <svg class="w-4 h-4 text-white dark:text-gray-800" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+          fill="none" viewBox="0 0 6 10">
+          <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+            d="M5 1 1 5l4 4" />
+        </svg>
+        <span class="sr-only">Previous</span>
+      </span>
+    </button>
+    <button type="button"
+      class="absolute top-0 right-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
+      data-carousel-next>
+      <span
+        class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-gray-800/30 group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-gray-800/70 group-focus:outline-none">
+        <svg class="w-4 h-4 text-white dark:text-gray-800" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+          fill="none" viewBox="0 0 6 10">
+          <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+            d="m1 9 4-4-4-4" />
+        </svg>
+        <span class="sr-only">Next</span>
+      </span>
+    </button>
   </div>
-  
 
 
 
 
-<!-- Kontakt -->
 
-<section class="text-[#FFF8F0] font-bold flex-col">
-  <div>
+  <!-- Kontakt -->
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-    <path
-      fill="#ff8811"
-      fill-opacity="1"
+    <path fill="#ff8811" fill-opacity="1"
       d="M0,32L30,42.7C60,53,120,75,180,101.3C240,128,300,160,360,192C420,224,480,256,540,245.3C600,235,660,181,720,181.3C780,181,840,235,900,250.7C960,267,1020,245,1080,202.7C1140,160,1200,96,1260,101.3C1320,107,1380,181,1410,218.7L1440,256L1440,320L1410,320C1380,320,1320,320,1260,320C1200,320,1140,320,1080,320C1020,320,960,320,900,320C840,320,780,320,720,320C660,320,600,320,540,320C480,320,420,320,360,320C300,320,240,320,180,320C120,320,60,320,30,320L0,320Z"
-    class="bg-[#FF8811] p-2"></path>
+      class="bg-[#FF8811] p-2"></path>
   </svg>
-</div>
-  <div
-    class="bg-[#FF8811] flex justify-around items-center px-5 lg:px-10 xl:px-20 pb-10 overflow-hidden"
-  >
-    <img src="../../dist/img/corgiContact.png" alt="" class="h-40 lg:h-52" />
-  <div>
-    <p class="w-full text-center lg:text-xl">
-      Masz pytania?? <br />
-      zapraszamy do naszych socjal mediów
-    </p>
-    <div class="flex items-center justify-center mx-auto">
-      <a
-        target="_blank"
-        href="https://www.facebook.com/profile.php?id=100064257836903"
-        class="m-5"
-        ><img src="../../dist/img/facebook-f.svg" alt="" class="h-10 w-10"
-      /></a>
-      <a target="_blank" href="https://www.instagram.com/"
-        ><img src="../../dist/img/instagram.svg" alt="" class="h-10 w-10"
-      /></a>
-    </div></div>
-  
-  </div>
-</section>
+  <section class="text-[#FFF8F0] font-bold flex-col -mt-2">
+    <div class="bg-[#FF8811] flex justify-around items-center px-5 lg:px-10 xl:px-20 pb-10 overflow-hidden">
+      <img src="../../dist/img/corgiContact.png" alt="" class="h-40 lg:h-52" />
+      <div>
+        <p class="w-full text-center lg:text-xl">
+          Masz pytania?? <br />
+          zapraszamy do naszych socjal mediów
+        </p>
+        <div class="flex items-center justify-center mx-auto">
+          <a target="_blank" href="https://www.facebook.com/profile.php?id=100064257836903" class="m-5"><img
+              src="../../dist/img/facebook-f.svg" alt="" class="h-10 w-10" /></a>
+          <a target="_blank" href="https://www.instagram.com/"><img src="../../dist/img/instagram.svg" alt=""
+              class="h-10 w-10" /></a>
+        </div>
+      </div>
 
-    <script src="../../dist/js/main.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.0/flowbite.min.js"></script>
- 
-    
+    </div>
+  </section>
+
+  <script src="../../dist/js/main.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.0/flowbite.min.js"></script>
+
+
 </body>
+
 </html>
