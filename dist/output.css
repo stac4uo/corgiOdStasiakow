@@ -735,16 +735,8 @@ video {
   clear: none;
 }
 
-.m-2{
-  margin: 0.5rem;
-}
-
 .m-5{
   margin: 1.25rem;
-}
-
-.-m-2{
-  margin: -0.5rem;
 }
 
 .mx-4{
@@ -772,8 +764,8 @@ video {
   margin-bottom: 2rem;
 }
 
-.-mt-1{
-  margin-top: -0.25rem;
+.-mt-2{
+  margin-top: -0.5rem;
 }
 
 .mb-12{
@@ -810,10 +802,6 @@ video {
 
 .mt-4{
   margin-top: 1rem;
-}
-
-.-mt-2{
-  margin-top: -0.5rem;
 }
 
 .box-border{
@@ -949,6 +937,10 @@ video {
 
 .h-full{
   height: 100%;
+}
+
+.h-\[80vh\]{
+  height: 80vh;
 }
 
 .w-10{
@@ -1995,8 +1987,40 @@ video {
   background-color: rgb(31 41 55 / 0.3);
 }
 
+.bg-\[\]{
+  background-color: ;
+}
+
+.bg-\[top\.center\]{
+  background-color: top.center;
+}
+
+.bg-\[topcenter\]{
+  background-color: topcenter;
+}
+
+.bg-\[top_\]{
+  background-color: top;
+}
+
+.bg-\[center_5retop_5rem\]{
+  background-color: center 5retop 5rem;
+}
+
 .bg-\[url\(\'\.\.\/dist\/img\/baner\.jpg\'\)\]{
   background-image: url('../dist/img/baner.jpg');
+}
+
+.bg-\[url\(\'\.\.\/dist\/img\/banerMD\.jpg\'\)\]{
+  background-image: url('../dist/img/banerMD.jpg');
+}
+
+.bg-\[url\(\'\.\.\/dist\/img\/banerMd\.jpg\'\)\]{
+  background-image: url('../dist/img/banerMd.jpg');
+}
+
+.bg-\[url\(\'\.\.\/dist\/img\/banerSm\.jpg\'\)\]{
+  background-image: url('../dist/img/banerSm.jpg');
 }
 
 .decoration-slice{
@@ -2021,6 +2045,14 @@ video {
 
 .bg-cover{
   background-size: cover;
+}
+
+.bg-contain{
+  background-size: contain;
+}
+
+.bg-auto{
+  background-size: auto;
 }
 
 .bg-fixed{
@@ -2052,8 +2084,40 @@ video {
           background-clip: text;
 }
 
+.bg-center{
+  background-position: center;
+}
+
+.bg-top{
+  background-position: top;
+}
+
+.bg-\[top\]{
+  background-position: top;
+}
+
+.bg-\[top_center\]{
+  background-position: top center;
+}
+
+.bg-\[center_top_1rem\]{
+  background-position: center top 1rem;
+}
+
 .bg-\[center_bottom_15\%\]{
   background-position: center bottom 15%;
+}
+
+.bg-\[top_30\%\]{
+  background-position: top 30%;
+}
+
+.bg-\[center_top_2rem\]{
+  background-position: center top 2rem;
+}
+
+.bg-\[center_top_5rem\]{
+  background-position: center top 5rem;
 }
 
 .bg-repeat{
@@ -2131,6 +2195,10 @@ video {
 
 .p-8{
   padding: 2rem;
+}
+
+.p-20{
+  padding: 5rem;
 }
 
 .px-4{
@@ -2916,8 +2984,28 @@ video {
     width: 50%;
   }
 
+  .md\:bg-\[url\(\'\.\.\/dist\/img\/baner\.jpg\'\)\]{
+    background-image: url('../dist/img/baner.jpg');
+  }
+
   .md\:bg-\[center_bottom_30\%\]{
     background-position: center bottom 30%;
+  }
+
+  .md\:bg-center{
+    background-position: center;
+  }
+
+  .md\:bg-\[center_top_30\%\]{
+    background-position: center top 30%;
+  }
+
+  .md\:bg-top{
+    background-position: top;
+  }
+
+  .md\:bg-\[center_bottom_15\%\]{
+    background-position: center bottom 15%;
   }
 
   .md\:p-8{
@@ -2949,12 +3037,24 @@ video {
     height: 90vh;
   }
 
+  .lg\:h-\[80vh\]{
+    height: 80vh;
+  }
+
+  .lg\:h-\[85vh\]{
+    height: 85vh;
+  }
+
   .lg\:w-52{
     width: 13rem;
   }
 
   .lg\:flex-nowrap{
     flex-wrap: nowrap;
+  }
+
+  .lg\:bg-center{
+    background-position: center;
   }
 
   .lg\:px-10{
@@ -2970,6 +3070,11 @@ video {
   .lg\:py-16{
     padding-top: 4rem;
     padding-bottom: 4rem;
+  }
+
+  .lg\:text-2xl{
+    font-size: 1.5rem;
+    line-height: 2rem;
   }
 
   .lg\:text-4xl{
@@ -3002,6 +3107,14 @@ video {
 }
 
 @media (min-width: 1280px){
+  .xl\:bg-\[url\(\'\.\.\/dist\/img\/baner\.jpg\'\)\]{
+    background-image: url('../dist/img/baner.jpg');
+  }
+
+  .xl\:bg-center{
+    background-position: center;
+  }
+
   .xl\:px-20{
     padding-left: 5rem;
     padding-right: 5rem;
