@@ -5,10 +5,10 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="description"
-    content="Galeria 'od Stasiaków - Pasja w hodowli Corgi Pembroke. Zapraszamy do zapoznania się z naszą kolekcją zdjęć." />
-  <meta name="keywords" content="hodowla, Corgi Pembroke, galeria, psy, pasja, Stasiakowie" />
+    content="gallery 'od Stasiaków - Pasja w hodowli Corgi Pembroke. Zapraszamy do zapoznania się z naszą kolekcją zdjęć." />
+  <meta name="keywords" content="hodowla, Corgi Pembroke, gallery, psy, pasja, Stasiakowie" />
   <meta name="author" content="marcinstasiak.mail@gmail.com" />
-  <title>Galeria "od Stasiaków</title>
+  <title>gallery "od Stasiaków</title>
   <link rel="stylesheet" href="../style.css" />
   <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.0/flowbite.min.css" rel="stylesheet" />
   <link rel="stylesheet" href="../lightbox/dist/css/lightbox.min.css">
@@ -17,114 +17,146 @@
 
 <body class="text-[#392F5A] bg-[#FFF8F0]">
 
+  
   <header id="navbar"
-    class="max-w-8xl h-40 bg-[#FFF8F0] flex items-center justify-between  relative   z-10 lg:text-lg duration-700 mx-auto">
+    class=" deskoptNav w-full h-40 bg-[#FFF8F0] flex items-center justify-between  relative z-10 lg:text-lg duration-700 ">
     <a href="../index.html" class=" h-40 w-auto">
       <img src="../img/logo.webp" alt="logo hodowli 'od Stasiakó'" class="object-fill h-full w-full" />
     </a>
 
-    <nav>
+    <ul class="hidden sm:flex text-[#0F0F0F] mr-8">
 
-      <a href="../index.html"><img src="../img/home.png" class="w-10 h-10 mr-10 " alt=""></a>
+      <li id="" class="liHamburger py-2 hover:bg-[#fcb653]  hover:font-semibold   rounded-md transition-all">
+        <a href="../puppy/index.html" class="block px-4 py-2">Szczenięta</a>
+      </li>
+
+      <li id="" class="liHamburger py-2 hover:bg-[#fcb653] hover:font-semibold rounded-md">
+        <a href="#" class=" block px-4 py-2">Mioty</a>
+      </li>
+      <li id="" class="liHamburger py-2 hover:bg-[#fcb653] hover:font-semibold rounded-md">
+        <a href="#kontakt" class="block px-4 py-2">Kontakt</a>
+      </li>
+    </ul>
+
+    <nav id="navigation" class="mobileNav h-10 flex justify-end transition-all duration-1000  sm:hidden">
+      <div class="">
+        <img id="menuIcon" src="../img/bars-solid.svg" alt="menu icon" class="w-10 h-full mr-10 duration-700" />
+
+      </div>
+      <ul id="ulList"
+        class="absolute top-[95%] left-[15%] bg-[#FFF8F0] text-[#0F0F0F] font-semibold shadow-md rounded-xl p-2 w-3/4 flex-col justify-center items-center cursor-pointer z-10 opacity-95 hidden">
+
+        <li id="" class="liHamburger py-2 hover:bg-[#fcb653] rounded-md">
+          <a href="../puppy/index.html" class="block px-4 py-2">Szczenięta</a>
+        </li>
+
+        <li id="" class="liHamburger py-2 hover:bg-[#fcb653] rounded-md">
+          <a href="#" class="block px-4 py-2">Mioty</a>
+        </li>
+
+        <li id="" class="liHamburger py-2 hover:bg-[#fcb653] rounded-md">
+          <a href="#kontakt" class="block px-4 py-2">Kontakt</a>
+        </li>
+      </ul>
     </nav>
-
   </header>
 
 
-
+<section>
   <div class="max-w-8xl mx-auto grid grid-cols-2 p-8 md:grid-cols-4 gap-4   ">
     <div class="grid gap-4">
-      <div> <a href="../img/galeria/pic10big.jpg" data-lightbox="photo"><img class="h-auto w-full rounded-lg mx-auto"
-            src="../img/galeria/pic(10).jpg" alt="zdjecie z psem"></a>
+      <div> <a href="../img/gallery/pic10big.webp" data-lightbox="photo"><img class="h-auto w-full rounded-lg mx-auto"
+            src="../img/gallery/pic(10).webp" alt="zdjecie z psem"></a>
       </div>
       <div>
-        <a href="../img/galeria/pic11big.JPG" data-lightbox="photo"><img class="h-auto max-w-full rounded-lg"
-            src="../img/galeria/pic(11).JPG" alt="zdjecie z psem"></a>
+        <a href="../img/gallery/pic11big.webp" data-lightbox="photo"><img class="h-auto max-w-full rounded-lg"
+            src="../img/gallery/pic(11).webp" alt="zdjecie z psem"></a>
       </div>
       <div>
-        <a href="../img/galeria/pic17big.JPG" data-lightbox="photo">
-          <img class="h-auto max-w-full rounded-lg" src="../img/galeria/pic(17).JPG" alt="zdjecie z psem"></a>
+        <a href="../img/gallery/pic17big.webp" data-lightbox="photo">
+          <img class="h-auto max-w-full rounded-lg" src="../img/gallery/pic(17).webp" alt="zdjecie z psem"></a>
       </div>
       <div>
-        <a href="../img/galeria/pic1big.JPG" data-lightbox="photo"> <img class="h-auto max-w-full rounded-lg"
-            src="../img/galeria/pic(1).JPG" alt="zdjecie z psem"></a>
+        <a href="../img/gallery/pic1big.webp" data-lightbox="photo"> <img class="h-auto max-w-full rounded-lg"
+            src="../img/gallery/pic(1).webp" alt="zdjecie z psem"></a>
       </div>
       <div>
-        <a href="../img/galeria/pic14big.JPG" data-lightbox="photo"> <img class="h-auto max-w-full rounded-lg"
-            src="../img/galeria/pic(14).JPG" alt="zdjecie z psem"></a>
-      </div>
-    </div>
-
-    <div class="grid gap-4">
-      <div>
-        <a href="../img/galeria/pic4big.jpg" data-lightbox="photo">
-          <img class="h-auto max-w-full rounded-lg" src="../img/galeria/pic(4).jpg" alt="zdjecie z psem"></a>
-      </div>
-      <div>
-        <a href="../img/galeria/pic5big.jpg" data-lightbox="photo"> <img class="h-auto max-w-full rounded-lg"
-            src="../img/galeria/pic(5).jpg" alt="zdjecie z psem"></a>
-      </div>
-      <div>
-        <a href="../img/galeria/pic9big.jpg" data-lightbox="photo"><img class="h-auto max-w-full rounded-lg mx-auto"
-            src="../img/galeria/pic(9).jpg" alt="zdjecie z psem"></a>
-      </div>
-      <div>
-        <a href="../img/galeria/pic13big.JPG" data-lightbox="photo"><img class="h-auto max-w-full rounded-lg"
-            src="../img/galeria/pic(13).JPG" alt="zdjecie z psem"></a>
-      </div>
-      <div>
-        <a href="../img/galeria/pic19big.JPG" data-lightbox="photo"><img class="h-auto max-w-full rounded-lg"
-            src="../img/galeria/pic(19).JPG" alt="zdjecie z psemzdjecie z psemzdjecie z psem"></a>
+        <a href="../img/gallery/pic14big.webp" data-lightbox="photo"> <img class="h-auto max-w-full rounded-lg"
+            src="../img/gallery/pic(14).webp" alt="zdjecie z psem"></a>
       </div>
     </div>
 
     <div class="grid gap-4">
       <div>
-        <a href="../img/galeria/pic6big.jpg" data-lightbox="photo"><img class="h-auto max-w-full rounded-lg"
-            src="../img/galeria/pic(6).jpg" alt="zdjecie z psemzdjecie z psem"></a>
+        <a href="../img/gallery/pic4big.webp" data-lightbox="photo">
+          <img class="h-auto max-w-full rounded-lg" src="../img/gallery/pic(4).webp" alt="zdjecie z psem"></a>
       </div>
       <div>
-        <a href="../img/galeria/pic(7).JPG" data-lightbox="photo">
-          <img class="h-auto max-w-full rounded-lg" src="../img/galeria/pic(7).JPG"
+        <a href="../img/gallery/pic5big.webp" data-lightbox="photo"> <img class="h-auto max-w-full rounded-lg"
+            src="../img/gallery/pic(5).webp" alt="zdjecie z psem"></a>
+      </div>
+      <div>
+        <a href="../img/gallery/pic9big.webp" data-lightbox="photo"><img class="h-auto max-w-full rounded-lg mx-auto"
+            src="../img/gallery/pic(9).webp" alt="zdjecie z psem"></a>
+      </div>
+      <div>
+        <a href="../img/gallery/pic13big.webp" data-lightbox="photo"><img class="h-auto max-w-full rounded-lg"
+            src="../img/gallery/pic(13).webp" alt="zdjecie z psem"></a>
+      </div>
+      <div>
+        <a href="../img/gallery/pic19big.webp" data-lightbox="photo"><img class="h-auto max-w-full rounded-lg"
+            src="../img/gallery/pic(19).webp" alt="zdjecie z psemzdjecie z psemzdjecie z psem"></a>
+      </div>
+    </div>
+
+    <div class="grid gap-4">
+      <div>
+        <a href="../img/gallery/pic6big.webp" data-lightbox="photo"><img class="h-auto max-w-full rounded-lg"
+            src="../img/gallery/pic(6).webp" alt="zdjecie z psemzdjecie z psem"></a>
+      </div>
+      <div>
+        <a href="../img/gallery/pic(7).webp" data-lightbox="photo">
+          <img class="h-auto max-w-full rounded-lg" src="../img/gallery/pic(7).webp"
             alt="zdjecie z psemzdjecie z psem"></a>
       </div>
       <div>
-        <a href="../img/galeria/pic22.jpg" data-lightbox="photo"><img class="h-auto max-w-full rounded-lg"
-            src="../img/galeria/pic22.jpg" alt="zdjecie z psemzdjecie z psem"></a>
+        <a href="../img/gallery/pic22.webp" data-lightbox="photo"><img class="h-auto max-w-full rounded-lg"
+            src="../img/gallery/pic22.webp" alt="zdjecie z psemzdjecie z psem"></a>
       </div>
       <div>
-        <a href="../img/galeria/pic8big.jpg" data-lightbox="photo"> <img class="h-auto max-w-full rounded-lg"
-            src="../img/galeria/pic(8).jpg" alt="zdjecie z psemzdjecie z psem"></a>
+        <a href="../img/gallery/pic8big.webp" data-lightbox="photo"> <img class="h-auto max-w-full rounded-lg"
+            src="../img/gallery/pic(8).webp" alt="zdjecie z psemzdjecie z psem"></a>
       </div>
       <div>
-        <a href="../img/galeria/pic2big.jpg" data-lightbox="photo"> <img class="h-auto max-w-full rounded-lg"
-            src="../img/galeria/pic(2).jpg" alt="zdjecie z psemzdjecie z psem"></a>
+        <a href="../img/gallery/pic2big.webp" data-lightbox="photo"> <img class="h-auto max-w-full rounded-lg"
+            src="../img/gallery/pic(2).webp" alt="zdjecie z psemzdjecie z psem"></a>
       </div>
     </div>
 
     <div class="grid gap-4">
       <div>
-        <a href="../img/galeria/pic3big.jpg" data-lightbox="photo">
-          <img class="h-auto max-w-full rounded-lg mx-auto" src="../img/galeria/pic(3).jpg" alt="zdjecie z psem"></a>
+        <a href="../img/gallery/pic3big.webp" data-lightbox="photo">
+          <img class="h-auto max-w-full rounded-lg mx-auto" src="../img/gallery/pic(3).webp" alt="zdjecie z psem"></a>
       </div>
-      <div><a href="../img/galeria/pic12big.JPG" data-lightbox="photo">
-          <img class="h-auto max-w-full rounded-lg" src="../img/galeria/pic(12).JPG" alt="zdjecie z psem"></a>
+      <div><a href="../img/gallery/pic12big.webp" data-lightbox="photo">
+          <img class="h-auto max-w-full rounded-lg" src="../img/gallery/pic(12).webp" alt="zdjecie z psem"></a>
       </div>
-      <div><a href="../img/galeria/pic12big.JPG" data-lightbox="photo"><img class="h-auto max-w-full rounded-lg"
-            src="../img/galeria/pic(21).jpg" alt="zdjecie z psem"></a>
-      </div>
-      <div>
-        <a href="../img/galeria/pic16big.JPG" data-lightbox="photo"><img class="h-auto max-w-full rounded-lg"
-            src="../img/galeria/pic(16).JPG" alt="zdjecie z psem"></a>
+      <div><a href="../img/gallery/pic21big.webp" data-lightbox="photo"><img class="h-auto max-w-full rounded-lg"
+            src="../img/gallery/pic(21).webp" alt="zdjecie z psem"></a>
       </div>
       <div>
-        <a href="../img/galeria/pic(18).jpg" data-lightbox="photo"><img class="h-auto max-w-full rounded-lg"
-            src="../img/galeria/pic(18).jpg" alt="zdjecie z psem"></a>
+        <a href="../img/gallery/pic16big.webp" data-lightbox="photo"><img class="h-auto max-w-full rounded-lg"
+            src="../img/gallery/pic(16).webp" alt="zdjecie z psem"></a>
+      </div>
+      <div>
+        <a href="../img/gallery/pic(18).webp" data-lightbox="photo"><img class="h-auto max-w-full rounded-lg"
+            src="../img/gallery/pic(18).webp" alt="zdjecie z psem"></a>
       </div>
 
 
     </div>
   </div>
+</section>
 
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
     <path fill="#ff8811" fill-opacity="1"
@@ -133,7 +165,7 @@
   </svg>
   <section class="text-[#FFF8F0] font-bold text-xl flex-col -mt-2">
     <div class="bg-[#FF8811] flex justify-around items-center px-5 lg:px-10 xl:px-20 pb-10 overflow-hidden">
-      <img src="../img/corgiContact.png" alt="" class="h-40 lg:h-52" />
+      <img src="../img/corgiContact.webp" alt="" class="h-40 lg:h-52" />
       <div>
         <p class="w-full text-center lg:text-2xl">
           Masz pytania?? <br />
@@ -150,6 +182,7 @@
 
     </div>
   </section>
+  <a id="kontakt"></a>
 
   <script src="../js/main.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.0/flowbite.min.js"></script>

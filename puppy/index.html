@@ -18,45 +18,78 @@
 
   <body class="text-[#392F5A] bg-[#FFF8F0] relative">
     <header id="navbar"
-      class="max-w-8xl mx-auto h-40 bg-[#FFF8F0] flex items-center justify-between relative z-10 lg:text-lg duration-700 ">
+      class=" deskoptNav w-full h-40 bg-[#FFF8F0] flex items-center justify-between  relative z-10 lg:text-lg duration-700  ">
       <a href="../index.html" class=" h-40 w-auto">
         <img src="../img/logo.webp" alt="logo hodowli 'od Stasiakó'" class="object-fill h-full w-full" />
       </a>
 
+      <ul class="hidden sm:flex text-[#0F0F0F] mr-8">
 
-      <nav>
+        <li id="" class="liHamburger py-2 hover:bg-[#fcb653] hover:font-semibold rounded-md">
+          <a href="#" class=" block px-4 py-2">Mioty</a>
+        </li>
 
-        <a href="../index.html"><img src="../img/home.png" class="w-10 h-10 mr-10 " alt=""></a>
+        <li id="" class="liHamburger py-2 hover:bg-[#fcb653]  hover:font-semibold   rounded-md transition-all">
+          <a href="../gallery/index.html" class="block px-4 py-2">Galeria</a>
+        </li>
+
+
+        <li id="" class="liHamburger py-2 hover:bg-[#fcb653] hover:font-semibold rounded-md">
+          <a href="#kontakt" class="block px-4 py-2">Kontakt</a>
+        </li>
+      </ul>
+
+      <nav id="navigation" class="mobileNav h-10 flex justify-end transition-all duration-1000  sm:hidden">
+        <div class="">
+          <img id="menuIcon" src="../img/bars-solid.svg" alt="menu icon" class="w-10 h-full mr-10 duration-700" />
+
+        </div>
+        <ul id="ulList"
+          class="absolute top-[95%] left-[15%] bg-[#FFF8F0] text-[#0F0F0F] font-semibold shadow-md rounded-xl p-2 w-3/4 flex-col justify-center items-center cursor-pointer z-10 opacity-95 hidden">
+
+          <li id="" class="liHamburger py-2 hover:bg-[#fcb653] rounded-md">
+            <a href="../gallery/index.html" class="block px-4 py-2">Galeria</a>
+          </li>
+
+          <li id="" class="liHamburger py-2 hover:bg-[#fcb653] rounded-md">
+            <a href="#" class="block px-4 py-2">Mioty</a>
+          </li>
+
+          <li id="" class="liHamburger py-2 hover:bg-[#fcb653] rounded-md">
+            <a href="#kontakt" class="block px-4 py-2">Kontakt</a>
+          </li>
+        </ul>
       </nav>
+    </header>
 
-    </header 
-    <section class="bg-[#FFF8F0] p-36 ">
-    <div class="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16 lg:px-12">
+    <section class="bg-[#FFF8F0] mt-36  ">
+      <div class="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16 lg:px-12">
 
-      <h1
-        class="mb-4 text-4xl font-extrabold tracking-tight leading-none text-gray-900 md:text-5xl lg:text-6xl dark:text-white">
-        Planujemy szczenięta <br> Wiosną 2024 roku !
-      </h1>
-      <p class="mb-8 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 xl:px-48 dark:text-gray-400 ">
-        Mamy świetną wiadomość! Już wiosną przyszłego roku planujemy powitania nowego miotu uroczych corgi .To psy,
-        które są nie tylko piękne, ale również bardzo mądre i oddane swojemu człowiekowi.
-        Chcesz mieć swojego małego przyjaciela?</p>
-      <h2
-        class="mb-6 text-3xl font-extrabold tracking-tight leading-none text-gray-900 md:text-3xl lg:text-4xl dark:text-white">
-        Chcesz mieć swojego małego przyjaciela?</h2>
-      <p class="mb-8 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 xl:px-48 dark:text-gray-400">
-        Jeśli myślisz o zakupie jednego z tych kochanych szczeniąt, to świetnie się składa! Możesz już teraz
-        zarezerwować swoje miejsce na liście oczekujących. Rezerwacja to takie zaproszenie, które pozwoli Ci być
-        pierwszym (-ą), jako pierwszy dowiesz się o dostępności nowych psiaków i sposobie ich zakupu.
-        <br><br>
-        Jesteśmy niesamowicie podekscytowani tą nową przygodą i mamy nadzieję, że wśród naszych szczeniątek znajdziesz
-        prawdziwego przyjaciela, który przyniesie mnóstwo radości do Twojego domu.
-        <br>
-        <br>
-        Skontaktuj się z nami, jeśli chcesz dowiedzieć się więcej o tym, jak zarezerwować miejsce dla swojego przyszłego
-        pupila. Chętnie podzielimy się z Tobą informacjami o naszej hodowli i przyszłym miocie.
+        <h1
+          class="mb-4 text-4xl font-extrabold tracking-tight leading-none text-gray-900 md:text-5xl lg:text-6xl dark:text-white">
+          Planujemy szczenięta <br> Wiosną 2024 roku !
+        </h1>
+        <p class="mb-8 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 xl:px-48 dark:text-gray-400 ">
+          Mamy świetną wiadomość! Już wiosną przyszłego roku planujemy powitania nowego miotu uroczych corgi .To psy,
+          które są nie tylko piękne, ale również bardzo mądre i oddane swojemu człowiekowi.
+          Chcesz mieć swojego małego przyjaciela?</p>
+        <h2
+          class="mb-6 text-3xl font-extrabold tracking-tight leading-none text-gray-900 md:text-3xl lg:text-4xl dark:text-white">
+          Chcesz mieć swojego małego przyjaciela?</h2>
+        <p class="mb-8 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 xl:px-48 dark:text-gray-400">
+          Jeśli myślisz o zakupie jednego z tych kochanych szczeniąt, to świetnie się składa! Możesz już teraz
+          zarezerwować swoje miejsce na liście oczekujących. Rezerwacja to takie zaproszenie, które pozwoli Ci być
+          pierwszym (-ą), jako pierwszy dowiesz się o dostępności nowych psiaków i sposobie ich zakupu.
+          <br><br>
+          Jesteśmy niesamowicie podekscytowani tą nową przygodą i mamy nadzieję, że wśród naszych szczeniątek znajdziesz
+          prawdziwego przyjaciela, który przyniesie mnóstwo radości do Twojego domu.
+          <br>
+          <br>
+          Skontaktuj się z nami, jeśli chcesz dowiedzieć się więcej o tym, jak zarezerwować miejsce dla swojego
+          przyszłego
+          pupila. Chętnie podzielimy się z Tobą informacjami o naszej hodowli i przyszłym miocie.
 
-    </div>
+      </div>
     </section>
 
 
@@ -69,7 +102,7 @@
 
       <div
         class="bg-[#FF8811] flex justify-around items-center px-5 pb-10 text-xl -mt-2 lg:px-10 xl:px-20  overflow-hidden">
-        <img loading="lazy" src="../img/corgiContact.png" alt="" class="h-40 lg:h-52" />
+        <img loading="lazy" src="../img/corgiContact.webp" alt="" class="h-40 lg:h-52" />
         <div>
           <p class="w-full text-center lg:text-2xl">
             Masz pytania? Jesteśmy tu, by pomóc. <br /><br />
@@ -86,6 +119,7 @@
 
       </div>
     </section>
+    <a id="kontakt"></a>
 
 
     <script src="../js/main.js"></script>
