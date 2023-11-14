@@ -70,23 +70,24 @@
             <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-center text-gray-900">Napisz do nas</h2>
             <p class="mb-8 lg:mb-16 font-light text-center text-gray-500  sm:text-xl">Masz pytania? Chcesz dowiedziec
                 sie wiecej?? Poinformuj nas.</p>
+
             <form id="contactform" action="https://formsubmit.io/send/02c3c3cc-fea3-4fd5-8b7c-6e2809eadb50"
                 method="POST" class="space-y-8">
                 <input name="_redirect" type="hidden" id="name" value="">
                 <div>
                     <label for="email" class="block mb-2 text-sm font-medium text-gray-900 0">Twoj email</label>
-                    <input type="email" id="email" class="shadow-sm  block w-full p-2.5 rounded-md "
+                    <input name="email" type="email" id="email" class="shadow-sm  block w-full p-2.5 rounded-md "
                         placeholder="example@gmail.com" required>
                 </div>
 
                 <div class="sm:col-span-2">
                     <label for="message" class="block mb-2 text-sm font-medium text-gray-900 ">Twoja wiadomość</label>
-                    <textarea id="message" rows="6" class=" block w-full p-2.5 shadow-sm rounded-md "
+                    <textarea name="comment" id="comment" rows="6" class=" block w-full p-2.5 shadow-sm rounded-md "
                         placeholder="Zostaw wiadomość..."></textarea>
                 </div>
-                <button type="submit"
+                <input name="_formsubmit_id" type="text" style="display:none" <button type="submit"
                     class="py-3 px-5 text-sm font-semibold text-center text-white rounded-lg bg-[#fcb653] sm:w-fit hover:bg-[#FF8811]   ">Send
-                    message</button>
+                message</button>
             </form>
         </div>
     </section>
