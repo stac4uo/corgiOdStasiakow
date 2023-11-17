@@ -29,3 +29,5 @@ nav.addEventListener("click", () => {
 	ulList.classList.toggle("flex");
 	menuIcon.classList.toggle("rotate-90");
 });
+
+
